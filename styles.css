@@ -1,0 +1,64 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.portada{
+    width: auto;
+    text-align: center;
+    color:#FFFFFF;
+}
+.container_general{
+    margin: 0 auto; 
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-weight: 300;
+}
+p{
+    font-weight: 300;
+}
+.text-center{
+    text-align: center;
+}
+.precio{
+    font-size: 25px;
+    color: #51005D;
+}
+.container{
+    color:#000000;
+    border: 1px solid #000000;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 13px 27px -5px rgba(101, 101, 163, 0.25),0 8px 16px -8px rgba(158, 114, 114, 0.3),0 -6px 16px -6px rgba(77, 74, 74, 0.025);;
+
+    border-radius: 5px;
+    width: 22%;
+    box-sizing: border-box;
+}
+.boton{
+    background: #C46B6B;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.boton :hover{
+    background: #F9B4B4;
+}
+@media(max-width: 1070px ){
+    .container{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 600px ){
+    .container{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
